@@ -1,0 +1,76 @@
+{
+  "classification": [
+    {
+      "Model": "Baseline (Most Frequent)",
+      "Accuracy": 0.3329,
+      "Precision": 0.111,
+      "Recall": 0.3333,
+      "F1 Score": 0.1665,
+      "CV F1 (train)": 0.1666
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.8486,
+      "Precision": 0.8501,
+      "Recall": 0.8485,
+      "F1 Score": 0.8491,
+      "CV F1 (train)": 0.8438
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8116,
+      "Precision": 0.8237,
+      "Recall": 0.8115,
+      "F1 Score": 0.8148,
+      "CV F1 (train)": 0.8282
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.822,
+      "Precision": 0.8309,
+      "Recall": 0.8219,
+      "F1 Score": 0.8246,
+      "CV F1 (train)": 0.8393
+    }
+  ],
+  "regression": [
+    {
+      "Model": "Baseline (Mean)",
+      "MAE": 538.4557,
+      "RMSE": 739.6783,
+      "R2 Score": -0.0011,
+      "CV RMSE (train)": 695.8529
+    },
+    {
+      "Model": "Linear Regression",
+      "MAE": 111.8182,
+      "RMSE": 156.7825,
+      "R2 Score": 0.955,
+      "CV RMSE (train)": 155.8569
+    },
+    {
+      "Model": "Decision Tree",
+      "MAE": 129.9071,
+      "RMSE": 174.7735,
+      "R2 Score": 0.9441,
+      "CV RMSE (train)": 178.3539
+    },
+    {
+      "Model": "Random Forest",
+      "MAE": 115.6308,
+      "RMSE": 162.3785,
+      "R2 Score": 0.9518,
+      "CV RMSE (train)": 167.7065
+    }
+  ],
+  "best_classifier": "Logistic Regression",
+  "best_regressor": "Linear Regression",
+  "thresholds": {
+    "Low_upper": 664.8,
+    "Medium_upper": 1126.3
+  },
+  "train_rows": 3457,
+  "test_rows": 865,
+  "clf_params": {},
+  "reg_params": {}
+}
